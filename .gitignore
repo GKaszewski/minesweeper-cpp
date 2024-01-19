@@ -1,0 +1,37 @@
+# Ignore build directory
+/build/
+
+# Ignore CMake generated files
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+*.cmake
+Makefile
+
+# Ignore Ninja build files
+.ninja*
+
+.cache
+
+# Ignore compiled files
+*.o
+*.so
+*.a
+*.dll
+*.dylib
+*.exe
+
+# Ignore user-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore Visual Studio Code settings
+.vscode/
+
+# Ignore other temporary files
+*.log
+*.tmp
+*.tmp.*
+temp/
