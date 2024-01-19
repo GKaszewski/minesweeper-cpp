@@ -73,7 +73,7 @@ void draw_grid(const Grid& grid, int offset_x = 0, int offset_y = 0, int gap = 0
         }
 
         if (cell.is_mine && cell.is_revealed) {
-            DrawCircle(offset_x + cell.x * cell_size + cell_size / 2, offset_y + cell.y * cell_size + cell_size / 2, cell_size / 4, RED);
+            DrawCircle(offset_x + cell.x * cell_size + static_cast<float>(cell_size) / 2, offset_y + cell.y * cell_size + static_cast<float>(cell_size) / 2, static_cast<float>(cell_size) / 4, RED);
         }
     }
 }
